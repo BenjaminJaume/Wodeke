@@ -1,6 +1,6 @@
 # Wodeke
 
-A `create-react-app` to fetch word definition with an API, along with Jokes
+A `create-react-app` to fetch words definition with an API, along with jokes
 
 Origina of the name: **Wo**rd **De**finition and Jo**ke**s
 
