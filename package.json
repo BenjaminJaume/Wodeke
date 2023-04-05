@@ -1,0 +1,44 @@
+{
+  "name": "react-redux-hooks",
+  "version": "1.0.0",
+  "description": "Practicing Redux and Hooks with React",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server --ignore react-ui/",
+    "build": "cd react-ui/ && npm install && npm run build",
+    "sequelize-reset-db": "cd server/ && npx sequelize db:migrate:undo:all && npx sequelize db:migrate && npx sequelize-cli db:seed:all"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "react-ui/node_modules"
+  ],
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dateformat": "^4.5.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BenjaminJaume/react-redux-hooks.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "create-react-app",
+    "react"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

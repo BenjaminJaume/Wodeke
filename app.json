@@ -1,0 +1,17 @@
+{
+  "name": "react-redux-hooks",
+  "description": "Practicing Redux and Hooks with React",
+  "scripts": {},
+  "env": {},
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
