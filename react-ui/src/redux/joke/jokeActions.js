@@ -1,7 +1,7 @@
 import jokeTypes from "./jokeTypes";
 import axios from "axios";
 
-const URL_JOKE_API = "https://v2.jokeapi.dev/joke/";
+const URL_JOKE_API = process.env.REACT_APP_URL_JOKE_API;
 
 export const fetchJokeRequest = () => {
   return {
